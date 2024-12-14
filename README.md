@@ -5,14 +5,14 @@ Projecter is a backend application for managing projects, tasks, and user roles.
 ## Features
 
 1. Role-Based Access Control:
-    Admin:
+     Admin:
      - Create and manage projects.
      - Assign Project Managers (PMs) to projects.
      - Change user roles (e.g., promote a User to PM).
-    Project Manager (PM):
+     Project Manager (PM):
      - Add tasks to their assigned projects.
      - Assign tasks to Users.
-    Employee (User):
+     Employee (User):
      - View their assigned tasks.
      - Update the status of their tasks.
    - Default role for new sign-ups is `User`.
