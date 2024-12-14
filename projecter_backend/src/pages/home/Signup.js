@@ -29,7 +29,7 @@ const Signup = () => {
       ),
     password: Yup.string()
       .required("Password is required")
-      .min(5, "Minimum 5 characters"), //.matches(/[a-zA-Z]/, "Password can only contain Latin letters."),
+      .min(5, "Minimum 5 characters"), 
     confirmPassword: Yup.string()
       .required("Please confirm password")
       .when("password", {

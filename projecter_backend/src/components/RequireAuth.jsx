@@ -3,7 +3,7 @@ import { useLocation, Navigate, Outlet } from "react-router-dom";
 const RequireAuth = ({ allowedRoles }) => {
   const location = useLocation();
   const token = sessionStorage.getItem("token");
-  const user = JSON.parse(sessionStorage.getItem("user"));
+  const user = JSON.parse(sessionStorage.getItem("PM"));
   const role = user?.role;
 
   return token !== "" && allowedRoles?.includes(role) ? (

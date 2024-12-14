@@ -56,8 +56,7 @@ const LoginForgotPassword = () => {
 
         <DialogContent>
           <DialogContentText>
-            To reset your password, please enter your email address here. We
-            will send you a reset link to the provided email.
+            To reset your password, please enter your email address here.
           </DialogContentText>
 
           <TextField

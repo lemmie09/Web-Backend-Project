@@ -27,7 +27,7 @@ const Login = () => {
         "Email pattern is not correct"
       ),
     password: Yup.string().required("Password is required"),
-    // min(8, "Min 8 characters").matches(/[a-zA-Z]/, "Password can only contain Latin letters"),
+    // min(8,
   });
 
   const handleFormSubmit = (values) => {
